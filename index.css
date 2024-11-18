@@ -1,0 +1,89 @@
+
+
+header {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(157,15,192,1) 75%, rgba(0,212,255,1) 100%); 
+
+}
+.bgnImg {
+    background-image: url('/Assets/sandro-katalina-k1bO_VTiZSs-unsplash.jpg');
+}
+section h1 {
+    .great-vibes-regular {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+.container {
+    background-color: #a167a5;
+    width: 100%;
+    
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:transparent;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.projects {
+    background-color: #E8D7F1;
+    width:30%;
+}
+.inblock {
+    width: 15%;
+    height: 8px;
+
+}
+.marginPic {
+    margin: 50px 20px;
+}
+.pic {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+.bgnF {
+    background-color: yellow;
+    width: 100%;
+}
+.gap {
+    gap: 90px;
+    
+}
+.justifycontent {
+    justify-content: center;
+}
