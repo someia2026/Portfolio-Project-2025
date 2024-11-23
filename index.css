@@ -274,7 +274,10 @@
 }
 
 .card img {
-    border-radius: 23px;
+    border-radius: 95px 10px 95px 0px;
+    -moz-border-radius: 95px 10px 95px 0px;
+    -webkit-border-radius: 95px 10px 95px 0px;
+    border: 0px solid #000000;
 }
 
 .card h2 {
