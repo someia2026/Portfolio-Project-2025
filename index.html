@@ -5,91 +5,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-    </style>
-
     <title>Portfolio Project</title>
 </head>
 
 <header>
-    <div> <!-- div générale pour demande le display flex -->
+
+    <nav class="flex headerbox align-center spaceBetween ">
         <div>
-            <a href="" class="Logo">Logo</a>
+            <img class="logo"
+                src="https://cdn.textstudio.com/output/sample/normal/0/2/7/5/so-logo-182-5720.webp">Logo</a>
         </div>
-        <div>
+        <div class="headerFont">
             <ul>
-                <li><a href="#MesApirations">Mes Aspirations</a></li>
-                <li><a href="#MonParcours">Mon Parcours</a></li>
-                <li><a href="#MesProjets" href="">Mes Projets</a></li>
+
+                <li><a href="#Qui suis-je">Qui suis-je?</a></li>
+                <li><a href="#MesProjets" href="">Mes projets accomplis</a></li>
                 <li><a href="#Contact" href="">Contact</a></li>
                 <!-- ul>(li>a)*4 Raccourci pour incorporer des A dans une liste  -->
             </ul>
         </div>
-    </div>
+    </nav>
+
 
 </header>
 
 <body>
 
-    <main class="bgnImg">
+    <main>
 
-        <a href=""></a> <!-- logo cliquable insta en sticky dans dans tout le main -->
-        <section class="container flex spaceBetween alignCenter">
+
+
+        <section>
+
             <!-- SECTION HERO -->
-
-            <div id="MesAspirations flex spaceBetween"> <!-- div paragraph avec clickbox blurry -->
-                <div>
-                    <h1>MES ASPIRATIONS</h1>
+            <section class="bg-pic hero flex align-center">
+                <!-- logo cliquable insta en sticky dans dans tout le main -->
+                <div class="btnsticky sticky">
+                    <a href="https://latoile.em-lyon.com/" target="_blank"> <img class="btnSticky"
+                            src="https://upload.wikimedia.org/wikipedia/commons/8/86/Logo_emlyon_2021.png"></a>
                 </div>
 
-                <img src="Assets/MyPhoto.jpg" alt="MaPhoto">
-            </div>
-            <div>
-                <p class="text"> Data enthousiaste, je mets mes compétences en statistiques, programmation et
-                    visualisation au
-                    service de projets innovants.
-                    Avec expertise en Python, SQL et Outils BI, je transforme des données brutes en insight
-                    stratégiques.
-                    <span>Mon But Ultime:</span>Exploiter les potentiels DATA afin d'optimiser les processus
-                    décisionnels.
-                </p>
-            </div>
+                <div class="container flex between align-center">
+                    <div>
+                        <h1 id="Qui suis-je?" class="fontsize"> Hello, je suis Someia!</h1>
 
-            <div> <!-- bouton CONTACTEZ MOI -->
-                <a href="" class="myButton">CONTACTEZ-MOI</a>
-            </div>
-            </div>
-        </section>
-        <section id="MonParcours" class="Parcours"> <!-- SECTION MON PARCOURS -->
-            <div>
-                <a href=""></a>
-            </div>
-            <div>
-                <p class="text">Professionnelle spécialisée dans l'analyse de Data à l'international.
-                    Solide expérience en gestion de projet multidisciplinaires et en collaboratoin en environnement
-                    multiculturel.</p>
-            </div>
 
-        </section>
-        <section id="MesProjets" class="container"> <!-- Mes Projets -->
-            <div class="flex marginPic gap justifycontent">
-                <img class="pic" src="Assets/La Ruche.jpg" alt="La Ruche">
-                <img class="pic" src="Assets/lavagevoiture.jpg" alt="OK Freshclean">
-                <img class="pic" src="Assets/Lifestyle.webp" alt="Project Management">
-            </div>
-        </section>
+                    </div>
+                    <div class="flex spaceBetween">
+                        <div><img class="MyPhoto" src="Assets/MyPhoto.jpg" alt=""></div>
+                        <div>
+                            <div class="textbox">
 
+                                <p class="fontPara"> Étudiante à l'EM Lyon Business School du programme La Toile,
+                                    je suis passionnée par les enjeux du numérique et souhaite me réorienter vers ce
+                                    domaine
+                                    en contexte international. Mon parcours m'a permis de mener plusieurs projets,
+                                    développant mes compétences en gestion et en stratégie digitale. Curieuse et
+                                    adaptable,
+                                    je suis prête à relever de nouveaux défis et à contribuer à la transformation
+                                    numérique
+                                    d'entreprises à l'échelle mondiale. Mon objectif est de combiner mon expertise
+                                    académique et mes expériences pratiques pour évoluer dans un environnement dynamique
+                                    et
+                                    international.
+                                </p>
+                            </div>
+                        </div>
+                        <div><a href="https://www.linkedin.com/in/som-eia-oua-ziz-577919337/" target="_blank"
+                                class="myButton">Contactez-Moi</a></div>
+                    </div>
+
+
+
+
+            </section>
+            <!-- SECTION MES PROJETS REALISES ET FUTURS -->
+            <section class="sectionProjets cardPosition bgnProjets">
+
+                <div class="containerProjets flex spaceBetween container">
+                    <h2 id="MesProjets" class="MesProjets">Mes projets accomplis</h2>
+                    <!-- div contenant les images cliquables -->
+                    <div class="flex width70 gap32">
+                        <!-- Projet La Ruche  -->
+                        <a class="card" href="https://www.figma.com/design/nHhxxFk5kbZxJAp4ymb37d/la-ruche-maquette"
+                            target="_blank" title="lien vers page Maquette La Ruche">
+                            <img class="blur" src="/Assets/La Ruche.jpg" alt="" />
+                            <h2 class="h2font">La Ruche</h2>
+                        </a>
+
+                        <!-- Futur Projet Website OK FreshClean -->
+                        <a class="card" href="https://www.artisan-en-ligne.com/artisan-ok-fresh-clean-296533"
+                            target="_blank" title="lien vers page OK FreshClean">
+                            <img class="blur" src="/Assets/lavagevoiture.jpg" alt="PhotoLavageVoiture" />
+                            <h2 class="h2font">OK Freshclean</h2>
+                        </a>
+
+                        <!-- Projet SoulAddict -->
+                        <a class="card"
+                            href="https://customer.siteradio.fr/news/tayc-un-concert-virtuel-memorable-sur-walimusic-11499"
+                            target="_blank" title="lien vers page Soul-Addict">
+                            <img class="blur" src="/Assets/Logo_Soul-Addict.com_depuis_2018.png"
+                                alt="Logo Soul SoulAddict" />
+                            <h2>Soul-Addict.com</h2>
+                        </a>
+
+                    </div>
 
     </main>
-    <footer class="bgnF FooterImg">
-        <a href="#Contact"></a>
-        <img src="Assets/ReseauxSociaux.jpg" alt="Logo Reseaux Sociaux">
-        <input type="someia.ouaziz@latoile.em-lyon">
+    <footer class="bgnF">
+        <a id="Contact" href="#Contact"></a>
+        <p class="MesProjets">Contact</p>
+        <div class="flex">
+            <a href="https://www.instagram.com/" target="_blank" title=""></a> <img class="logoInsta"
+                src="https://www.pngplay.com/wp-content/uploads/1/Instagram-Background-PNG-Image.png" alt="Logo Insta">
+        </div>
 
+
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.1167769106246!2d4.400938777340778!3d45.42714727107345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5a945a2ab070f%3A0x5e9bb31efb0f9ea1!2sLa%20toile%20emlyon%20business%20school!5e0!3m2!1sfr!2sfr!4v1732398363710!5m2!1sfr!2sfr"
+                width="300" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="fontPara ">Cette page a été réalisée dans le cadre d'un devoir pratique.</p>
+        </div>
     </footer>
 </body>
 

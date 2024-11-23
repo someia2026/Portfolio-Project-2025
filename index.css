@@ -1,98 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Shadows+Into+Light&display=swap');
 
 
-header {
-    width: 100%;
+* {
     margin: 0;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(157,15,192,1) 75%, rgba(0,212,255,1) 100%); 
+    padding: 0;
+    font-family: "Inter", "sans-serif";
+}
+
+
+.headerbox {
+
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(157, 15, 192, 1) 75%, rgba(0, 212, 255, 1) 100%);
+    list-style: none;
+
 
 }
+.headerFont {
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.align-center {
+    align-items: center;
+}
+
+
+.logo {
+    height: 56px;
+    width: auto;
+    object-fit: contain;
+}
+
 .bgnImg {
     background-image: url('/Assets/sandro-katalina-k1bO_VTiZSs-unsplash.jpg');
 }
-section h1 {
-    .great-vibes-regular {
-        font-family: "Great Vibes", cursive;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
+
+.fontsize {
+    font-size: 62px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
-.container {
+
+.btnSticky {
+    width: 92px;
+    display: inline-flex;
+    z-index: auto;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    top: 0;
+
+}
+
+.MyPhoto {
+    border-radius: 200px 17px 200px 17px;
+    -moz-border-radius: 200px 17px 200px 17px;
+    -webkit-border-radius: 200px 17px 200px 17px;
+    border: 0px solid #000000;
+}
+
+.container2 {
     background-color: #a167a5;
     width: 100%;
-    
+
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .spaceBetween {
     justify-content: space-between;
 }
 
-.alignCenter{
-    align-items: center;
-}
 .text {
-    font-family: "Playfair Display", serif;
-    font-size: 110%;
-    
+
+    font-size: 14px;
+
 }
+
 .myButton {
-	box-shadow: 0px 1px 0px 0px #1c1b18;
-	background-color:transparent;
-	border-radius:15px;
-	border:2px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color: white;
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	padding:12px 16px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid #333029;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 24px 360px;
+    text-decoration: none;
+    box-shadow: #333029;
+    border-width: 3px;
+
 }
+
 .myButton:hover {
-	background-color:transparent;
+    background-color: transparent;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
+
 .projects {
     background-color: #E8D7F1;
-    width:30%;
+    width: 30%;
 }
+
 .inblock {
     width: 15%;
     height: 8px;
 
 }
+
 .marginPic {
     margin: 50px 20px;
 }
+
 .pic {
     width: 300px;
     height: 500px;
     object-fit: cover;
 }
+
 .bgnF {
-    background-color: yellow;
+    background-color: #C8A4D4;
     width: 100%;
 }
+
 .gap {
     gap: 90px;
+
+}
+
+.MesProjets {
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 240px;
+    font-family: "Anton", sanSs-serif;
+    font-size: 26px;
     
 }
+
+.sectionProjets {
+    height: 1000px;
+
+
+}
+
+.h2font {
+    font-size: 24px;
+}
+
 .justifycontent {
     justify-content: center;
 }
-.footerImg {
-    width: 600px;
+
+
+
+/*EDIT*/
+.bg-pic {
+    background-color: plum;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 0;
+}
+
+.gap32 {
+
+    gap: 32px;
+}
+
+.containerServices aside a {
+    margin-bottom: 8px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.containerServices aside p {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.sticky {
+    visibility: visible;
+    width: 100%;
+    position: sticky;
+    top: 80px;
+    right: 20px;
+}
+
+.textbox {
+    width: 350px;
+    gap: 70px;
+    padding: 28px 28px;
+    justify-content: center;
+
+    text-rendering: initial;
+}
+
+.fontPara {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.bgnProjets {
+    background: rgb(36, 0, 36);
+    background: linear-gradient(90deg, rgba(36, 0, 36, 1) 0%, rgba(194, 88, 214, 1) 27%, rgba(132, 0, 255, 1) 58%);
+}
+
+.cardPosition {
+    align-content: center;
+}
+
+.containerProjets img {
+    width: 300px;
     height: 300px;
     object-fit: cover;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    display: block;
+    color: black;
+    border-radius: 23px;
+
+}
+
+.card img {
+    border-radius: 23px;
+}
+
+.card h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blur {
+    filter: blur(2px);
+}
+.logoInsta {
+    width: 96px;
+    height: 96px;
+    
 }
