@@ -8,12 +8,15 @@
     padding: 0;
     font-family: "Inter", "sans-serif";
 }
-
+.display {
+    flex-wrap: wrap;
+}
 
 .headerbox {
 
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(157, 15, 192, 1) 75%, rgba(0, 212, 255, 1) 100%);
     list-style: none;
+    text-decoration: none;
 
 
 }
@@ -54,7 +57,15 @@
     -webkit-border-radius: 200px 200px 200px 200px;
     border: 0px solid #000000;
     top: 0;
+    
 
+}
+.sticky {
+    visibility: visible;
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    
 }
 
 .MyPhoto {
@@ -139,6 +150,9 @@
 .bgnF {
     background-color: #C8A4D4;
     width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gap {
@@ -150,9 +164,12 @@
     align-items: center;
     font-size: 24px;
     margin-bottom: 240px;
-    font-family: "Anton", sanSs-serif;
+    font-family: "Anton", sans-serif;
     font-size: 26px;
     
+}
+.pinkfont {
+    color: rgb(191, 10, 197);
 }
 
 .sectionProjets {
@@ -171,7 +188,7 @@
 
 
 
-/*EDIT*/
+
 .bg-pic {
     background-color: plum;
 }
@@ -219,13 +236,6 @@
     margin-bottom: 16px;
 }
 
-.sticky {
-    visibility: visible;
-    width: 100%;
-    position: sticky;
-    top: 80px;
-    right: 20px;
-}
 
 .textbox {
     width: 350px;
@@ -298,4 +308,14 @@
     width: 96px;
     height: 96px;
     
+}
+.aligntext {
+    text-align: center;
+    color: black;
+}
+.marginfooter {
+    margin-left: 26%;
+}
+.marginleft {
+    margin-left: 35%;
 }
