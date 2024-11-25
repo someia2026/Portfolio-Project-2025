@@ -8,8 +8,14 @@
     padding: 0;
     font-family: "Inter", "sans-serif";
 }
+li {
+    list-style: none;
+    
+}
+li a {
+    text-decoration: none;
 
-
+}
 .headerbox {
 
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(157, 15, 192, 1) 75%, rgba(0, 212, 255, 1) 100%);
